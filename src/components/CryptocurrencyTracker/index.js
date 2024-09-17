@@ -38,9 +38,11 @@ class CryptocurrencyTracker extends Component {
   render() {
     const {isLoading} = this.state
     return (
+      <div className="bg-co">
       <div data-testid='loader'>
         {isLoading ? this.cryptocurrencyLoader() : this.cryptocurrencyView()}
       </div>
+        </div>
     )
   }
 }
