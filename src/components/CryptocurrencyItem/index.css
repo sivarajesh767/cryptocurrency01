@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+.container-1 {
+  display: flex;
+  flex-direction: row;
+}
+.img {
+  height: 35px;
+  width: 40px;
+  margin: 15px;
+}
+.para-1 {
+  color: #ffff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.co-values{
+  display: flex;
+  flex-direction: columns;
+  
+}
+.para-values {
+  display: flex;
+  flex-direction: flex-start;
+  color: #ffff;
+  font-size: 24px;
+  margin:15px;
+}
